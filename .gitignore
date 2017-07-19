@@ -1,4 +1,4 @@
 *.pyc
-__*
+__py*
 .cache
 .idea

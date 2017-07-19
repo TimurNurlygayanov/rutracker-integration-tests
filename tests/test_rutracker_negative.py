@@ -15,7 +15,7 @@
 import pytest
 import requests
 
-from tests_config import ENDPOINTS, MAX_LIMIT
+from tests.tests_config import ENDPOINTS, MAX_LIMIT
 
 
 LARGE_ID = '10000000000000000000000000000'

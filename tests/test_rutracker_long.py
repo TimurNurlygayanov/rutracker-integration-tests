@@ -11,7 +11,7 @@ import pytest
 import requests
 from joblib import Parallel, delayed
 
-from tests_config import ENDPOINTS
+from tests.tests_config import ENDPOINTS
 
 
 IGNORE_FORUMS = [u'f.a.q.', u'faq', u'архив', u'предложения',

@@ -4,7 +4,7 @@
 import pytest
 import requests
 
-from tests_config import ENDPOINTS, MAX_LIMIT
+from tests.tests_config import ENDPOINTS, MAX_LIMIT
 
 
 @pytest.mark.sanity
