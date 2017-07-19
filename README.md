@@ -1,1 +1,36 @@
-# rutracker-integration-tests
+Introduction
+============
+This folder contains functional tests for rutracker API v1 [1].
+
+These tests were designed as an example of the functional tests
+for REST API services.
+
+All tests were created in 1-2 days and can be improved, of course.
+
+[1] http://api.rutracker.org/v1/docs/
+
+How To Run Tests
+================
+
+To run sanity suite execute:
+
+```
+  py.test -v -m 'sanity'
+```
+
+To run negative test suite:
+
+```
+  py.test -v -m 'negative'
+```
+
+To run long tests:
+
+```
+  py.test -v -m 'long'
+```
+
+Note
+====
+Long test skipped because we need to spend more time to properly
+design the test case and method to filter incorrect forums.
