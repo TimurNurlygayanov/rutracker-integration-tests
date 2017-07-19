@@ -56,7 +56,6 @@ def pytest_collection_finish(session):
             # automatically import test cases to test management system.
             if item._obj.__doc__:
                 full_name = get_test_case_docstring(item)
-                print full_name
+                print(full_name)
 
     pytest.exit('Done!')
-
