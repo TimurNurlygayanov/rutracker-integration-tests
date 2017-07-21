@@ -7,6 +7,7 @@ def get_test_case_docstring(item):
     """
 
     param_str = 'long string ({0} characters) started from "{1}"'
+    full_name = ''
 
     if item._obj.__doc__:
         # Remove extra whitespaces from the doc string:
@@ -58,4 +59,4 @@ def pytest_collection_finish(session):
                 full_name = get_test_case_docstring(item)
                 print(full_name)
 
-    pytest.exit('Done!')
+        pytest.exit('Done!')
